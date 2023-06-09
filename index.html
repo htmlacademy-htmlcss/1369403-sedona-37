@@ -10,53 +10,50 @@
 <!--Правильно    -->
 <header class="header">
 
-  <div class="wrapper header-wrapper">
-    <div class="header-logo">
-      <a class="logo" href="catalog.html">
-        <img src="images/logo.png" alt="Описание картинки очень подробно. Логотип сайта седона.">
-      </a>
+  <a class="logo" href="catalog.html">
+    <img src="images/logoSvg.svg" width="140px" height="70px"
+         alt="Описание картинки очень подробно. Логотип сайта седона.">
+  </a>
+
+  <nav class="header__navigation">
+    <ul class="navigation-list">
+      <li class="navigation-item">
+        <a class="navigation-link" active="true" href="#">Главная</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">О седоне</a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">Гостиницы</a>
+      </li>
+    </ul>
+  </nav>
+
+  <nav class="header__navigation-left">
+    <ul class="navigation-list">
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">
+          <span class="visual-hidden">Поиск</span>
+        </a>
+      </li>
+      <li class="navigation-item">
+        <a class="navigation-link" href="#">
+          <span class="visual-hidden">Избранное</span>
+        </a>
+      </li>
+    </ul>
+    <div class="header__button">
+      <button class="button_colored" type="button">Хочу сюда</button>
     </div>
+  </nav>
 
-    <nav class="header__navigation">
-      <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" active="true" href="#">Главная</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">О седоне</a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">Гостиницы</a>
-        </li>
-      </ul>
-    </nav>
-
-    <nav class="header__navigation-left">
-      <ul class="navigation-list">
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
-            <span class="visual-hidden">Поиск</span>
-          </a>
-        </li>
-        <li class="navigation-item">
-          <a class="navigation-link" href="#">
-            <span class="visual-hidden">Избранное</span>
-          </a>
-        </li>
-      </ul>
-      <div class="header__button">
-        <button class="button_colored" type="button">Хочу сюда</button>
-      </div>
-    </nav>
-  </div>
 
 </header>
 
 <main class="main">
-  <div class="wrapper main-wrapper">
 
-    <section class="section-1">
-      <img src="images/index-background.jpg" height="485px"  width="1200px" alt="Природа вблизи г.Седона.">
+    <section class="section-hero">
+      <img src="images/index-background.jpg" height="485px" width="1200px" alt="Природа вблизи г.Седона.">
       <h1 class="visually-hidden">Седона — небольшой городок в Аризоне,
         заслуживающий большего! </h1>
       <p>Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
@@ -67,7 +64,7 @@
         <li class="avantages-item">
           <h2>Настоящий городок</h2>
           <p>Седона — не аттракцион для туристов, там течёт своя жизнь</p>
-          <img src="images/photo-1.jpg" width="800px" height="385px" alt="Описание картинки.">
+          <img src="images/photo-1.jpg" width="800px" height="385px" alt="Фотография части города.">
         </li>
         <li class="avantages-item">
           <h2>Небольшая площадь</h2>
@@ -82,7 +79,7 @@
           <p>Большинство едет в Гранд Каньон и толпится там</p>
         </li>
         <li class="avantages-item">
-          <img src="images/photo-2.jpg" width="800px" height="385px" alt="Описание картинки.">
+          <img src="images/photo-2.jpg" width="800px" height="385px" alt="Фотография природы вблизи города.">
           <h2>Там есть мост дьявола</h2>
           <p>Да, по нему можно пройти! Если вы осмелитесь, разумеется</p>
         </li>
@@ -118,15 +115,13 @@
       <button type="submit">поиск гостиницы в седоне</button>
     </section>
 
-  </div>
+
 </main>
 
 
 <footer class="footer">
-  <div class="wrapper footer-wrapper">
-
     <div class="footer-picture">
-      <img src="images/subscribe.jpg" width="1200px" height="414.86px" alt="Описание картинки.">
+      <img src="images/subscribe.jpg" width="1200px" height="414.86px" alt="Фотография фон для формы отправки.">
       <h1>Подпишитесь на рассылку</h1>
       <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
 
@@ -162,10 +157,9 @@
     <a class="footer-phone" href="tel:+78128121212">+7 (812) 812-12-12</a>
 
     <a class="footer-caption" href="url">
-      <img src="images/caption.svg" width="114.9px" height="32.9px" alt="Красивая подпись.">
+      <img src="images/caption.svg" width="114.9px" height="32.9px" alt="Логотип html академии.">
     </a>
 
-  </div>
 </footer>
 </body>
 </html>
