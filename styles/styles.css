@@ -50,26 +50,29 @@ body {
   text-decoration: none;
   text-transform: capitalize;
 }
+
 .main {
 
 }
+
 .section-hero {
   color: #ffffff;
   background-color: #85B1D5;
   background-image: url("../images/index-background.jpg");
   background-repeat: no-repeat;
   background-size: 100% auto;
-  }
+}
 
-h1{
+h1 {
   text-align: center;
 }
 
-.advantages-next{
+.advantages-next {
   text-align: center;
   text-transform: uppercase;
 }
-.footer-picture{
+
+.footer-picture {
   color: #ffffff;
   background-color: #90ACBA;
   background-image: url("../images/pictureofmountains.jpg");
@@ -77,6 +80,35 @@ h1{
   background-size: 100% auto;
   height: 415px;
 }
-.footer-form{
+
+.footer-form {
   text-align: center;
+}
+
+/* Link */
+.pagination {
+  background-color: #ffffff;
+}
+
+.pagination-link {
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  line-height: 16px;
+  font-weight: 700;
+}
+.pagination-current-first{
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+.pagination-link{
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-disabled {
+  background-color: #595959;
 }
