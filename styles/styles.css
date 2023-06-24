@@ -59,11 +59,13 @@ body {
   color: #ffffff;
   background-color: #85B1D5;
   background-image: url("../images/index-background.jpg");
+  background-image: url("../images/welcome.svg");
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 
-h1 {
+
+.welcome{
   text-align: center;
 }
 

@@ -14,7 +14,7 @@
     <div class="wrapper header-wrapper">
       <div class="header-logo">
         <a class="logo" href="index.html">
-          <img src="images/logosvg.svg" alt="Описание картинки очень подробно. Логотип сайта седона.">
+          <img src="./images/header/logosvg.svg" alt="Описание картинки очень подробно. Логотип сайта седона.">
         </a>
       </div>
       <nav class="header__navigation">
@@ -52,79 +52,78 @@
   <!--Правильно    -->
   <main class="main main-custom">
     <section class="hotels">
-      <h1 class="hotels-title">Гостиницы Седоны</h1>
-      <ul class="hotels-list">
-        <li class="hotels-item">
-          <a class="hotels-link" href="#"><span class="visual-hidden">Главная</span></a>
+      <div class="inner-wrapper">
+        <a class="hotels-link" href="#"><span class="visual-hidden">Главная</span></a>
         </li>
         <li class="hotels-item"><a class="hotels-link" href="#" aria-hidden="true">Гостиницы</a>
         </li>
-      </ul>
-      <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
-        <fieldset class="field">
-          <legend class="legendary">Инфраструктура:</legend>
-          <ul clas="field-list">
-            <li class="field-item">
-              <Label class="field-tag">
-                <input class="field-input" type="checkbox" name="poll" checked>
-                <span class="visual-hidden">Бассейн</span>
-              </Label>
-            </li>
-            <li class="field-item">
-              <lable class="field-tag">
-                <input class="field-input" type="checkbox" name="parking" checked>
-                <span class="visual-hidden">Парковка</span>
-              </lable>
-            </li>
-            <li class="field-item">
-              <lable class="field-tag">
-                <input class="field-input" type="checkbox" name="wi-fi">
-                <span class="visual-hidden">Wi-Fi</span>
-              </lable>
-            </li>
-          </ul>
-        </fieldset>
-        <fieldset class="fields">
-          <p class="fields-text">Тип жилья:</p>
-          <div class="fields-hostel-sedona">
-            <ul class="fields-list">
-              <input class="fields-input" type="radio" name="apartment-type" value="hotel" checked>
-              <p class="fields-text"><span class="visual-hidden">гостиница</span></p>
-              <input class="fields-input" type="radio" name="apartment-type" value="hotel" checked>
-              <p class="fields-text"><span class="visual-hidden">мотель</span></p>
-              <input class="fields-input" type="radio" name="apartment-type" value="hotel" checked>
-              <p class="fields-text"><span class="visual-hidden">аппартаменты</span></p>
+        </ul>
+        <form class="catalog-filter" action="https://echo.htmlacademy.ru/" method="get">
+          <fieldset class="field">
+            <legend class="legendary">Инфраструктура:</legend>
+            <ul clas="field-list">
+              <li class="field-item">
+                <Label class="field-tag">
+                  <input class="field-input" type="checkbox" name="poll" checked>
+                  <span class="visual-hidden">Бассейн</span>
+                </Label>
+              </li>
+              <li class="field-item">
+                <lable class="field-tag">
+                  <input class="field-input" type="checkbox" name="parking" checked>
+                  <span class="visual-hidden">Парковка</span>
+                </lable>
+              </li>
+              <li class="field-item">
+                <lable class="field-tag">
+                  <input class="field-input" type="checkbox" name="wi-fi">
+                  <span class="visual-hidden">Wi-Fi</span>
+                </lable>
+              </li>
             </ul>
-          </div>
-        </fieldset>
-        <fieldset class="fields-line">
-          <p class="fields-line-text">Стоимость, ₽:</p>
-          <div>
-            <lable class="fields-line-tag">
-              <span class="visual-hidden">от</span>
-              <input class="fields-line-input" type="number" name="price-from" min="0" max="100" step="5">
-            </lable>
-            <lable class="fields-line-tag">
-              <span class="visual-hidden">до</span>
-              <input class="fields-line-input" type="number" name="price-to" max="100" step="5">
-            </lable>
-          </div>
-          <div class="range-slider slider">
-            <div class="slider-bar">
-              <button class="slider-bar" type="button">
-                <span class="visual-hidden">Ручка минимальной цены</span>
-              </button>
-              <button class="slider-thumb" type="button">
-                <span class="visual-hidden">Ручка максимальной цены</span>
-              </button>
+          </fieldset>
+          <fieldset class="fields">
+            <p class="fields-text">Тип жилья:</p>
+            <div class="fields-hostel-sedona">
+              <ul class="fields-list">
+                <input class="fields-input" type="radio" name="apartment-type" value="hotel" checked>
+                <p class="fields-text"><span class="visual-hidden">гостиница</span></p>
+                <input class="fields-input" type="radio" name="apartment-type" value="hotel" checked>
+                <p class="fields-text"><span class="visual-hidden">мотель</span></p>
+                <input class="fields-input" type="radio" name="apartment-type" value="hotel" checked>
+                <p class="fields-text"><span class="visual-hidden">аппартаменты</span></p>
+              </ul>
             </div>
+          </fieldset>
+          <fieldset class="fields-line">
+            <p class="fields-line-text">Стоимость, ₽:</p>
+            <div>
+              <lable class="fields-line-tag">
+                <span class="visual-hidden">от</span>
+                <input class="fields-line-input" type="number" name="price-from" min="0" max="100" step="5">
+              </lable>
+              <lable class="fields-line-tag">
+                <span class="visual-hidden">до</span>
+                <input class="fields-line-input" type="number" name="price-to" max="100" step="5">
+              </lable>
+            </div>
+            <div class="range-slider slider">
+              <div class="slider-bar">
+                <button class="slider-bar" type="button">
+                  <span class="visual-hidden">Ручка минимальной цены</span>
+                </button>
+                <button class="slider-thumb" type="button">
+                  <span class="visual-hidden">Ручка максимальной цены</span>
+                </button>
+              </div>
+            </div>
+          </fieldset>
+          <div class="filter-button">
+            <button class="button-submit" type="submit">Применить</button>
+            <button class="button-resert" type="resert">Сбросить</button>
           </div>
-        </fieldset>
-        <div class="filter-button">
-          <button class="button-submit" type="submit">Применить</button>
-          <button class="button-resert" type="resert">Сбросить</button>
-        </div>
-      </form>
+        </form>
+      </div>
     </section>
     <section class="before-catalog">
       <form class="form-width-option">
@@ -146,7 +145,7 @@
 
       <article class="amara">
         <a class="amara-link" href="product.html">
-          <img class="amara-image" src="images/amara.jpg" width="300" height="212" alt="AmaraResort отель">
+          <img class="amara-image" src="./images/amara.jpg" width="300" height="212" alt="AmaraResort отель">
         </a>
         <a class="amara-link" href="product.html"><h3 class="amara-title">Amara Resort & Spa</h3></a>
         <p class="fields-text">Гостиница</p>
@@ -161,7 +160,7 @@
 
       <article class="poco-diablo">
         <a class="poco-diablo-link" href="product.html">
-          <img src="images/villas-at-poco-diablo-hotel.jpg" width="300" height="212" alt="Villas at Poco Diablo отель">
+          <img src="./images/villas-at-poco-diablo-hotel.jpg" width="300" height="212" alt="Villas at Poco Diablo отель">
         </a>
         <a href="product.html"><h3>Villas at Poco Diablo</h3></a>
         <p class="fields-text">Гостиница</p>
@@ -175,7 +174,7 @@
       </article>
       <article class="Quail Inn">
         <a href="product.html">
-          <img src="images/desert-quail-Inn.jpg" width="300" height="212" alt="Desert Quail Inn отель">
+          <img src="./images/desert-quail-Inn.jpg" width="300" height="212" alt="Desert Quail Inn отель">
         </a>
         <a href="product.html"><h3>Desert Quail Inn</h3></a>
         <p class="fields-text">Гостиница</p>
@@ -189,7 +188,7 @@
       </article>
       <article class="GreenTree">
         <a href="product.html">
-          <img src="images/greentree.jpg" width="300" height="212" alt="Отель GreenTree">
+          <img src="./images/greentree.jpg" width="300" height="212" alt="Отель GreenTree">
         </a>
         <a href="product.html"><h3>GreenTree Inn</h3></a>
         <p class="fields-text">Гостиница</p>
@@ -233,9 +232,7 @@
         </li>
       </ul>
     </section>
-  </main>
-  <footer class="footer">
-    <div class="footer-picture">
+    <section class="footer-picture">
       <h2 class="footer-title">Подпишитесь на рассылку</h2>
       <p class="footer-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
       <form class="subscribe-form" action="https://echo.htmlacademy.ru" method="post">
@@ -243,9 +240,11 @@
           <span class="visual-hidden">Ваш e-mail</span>
           <input class="input" type="email" name="email" placeholder="Ваш e-mail">
         </label>
-        <button type="submit">Подписаться</button>
+        <button class="footer-button" type="submit">Подписаться</button>
       </form>
-    </div>
+    </section>
+  </main>
+  <footer class="footer">
     <div class="footer-navigation layout-3-column">
       <ul class="footer-social-list">
         <li class="footer-social-item">
@@ -306,5 +305,6 @@
     </a>
   </footer>
 </div>
+
 </body>
 </html>
