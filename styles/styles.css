@@ -5,6 +5,10 @@
   src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
@@ -12,6 +16,10 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
 body {
   margin: 0;
   font-family: "PT Sans", sans-serif;
@@ -21,16 +29,33 @@ body {
   background: #F2F2F2;
   min-width: 1280px;
 }
+<<<<<<< HEAD
 /*Pages*/
+=======
+
+/*Pages*/
+
+>>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
 .page-container {
   width: 1200px;
   margin: 0 auto;
   background: #ffffff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+<<<<<<< HEAD
 }
 .page-header {
   background: #FFFFFF;
 }
+=======
+
+}
+
+.page-header {
+
+  background: #FFFFFF;
+}
+
+>>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
 .navigation-link {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -42,16 +67,81 @@ body {
   text-decoration: none;
   text-transform: capitalize;
 }
+<<<<<<< HEAD
 .main {
 }
+=======
+
+.main {
+
+}
+
+>>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
 .section-hero {
   color: #ffffff;
   background-color: #85B1D5;
   background-image: url("../images/index-background.jpg");
+<<<<<<< HEAD
+=======
+  background-image: url("../images/welcome.svg");
+>>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 
+<<<<<<< HEAD
 h1 {
   text-align: center;
 }
+=======
+
+.welcome{
+  text-align: center;
+}
+
+.advantages-next {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.footer-picture {
+  color: #ffffff;
+  background-color: #90ACBA;
+  background-image: url("../images/pictureofmountains.jpg");
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  height: 415px;
+}
+
+.footer-form {
+  text-align: center;
+}
+
+/* Link */
+.pagination {
+  background-color: #ffffff;
+}
+
+.pagination-link {
+  color: #ffffff;
+  background-color: #000000;
+  text-decoration: none;
+  line-height: 16px;
+  font-weight: 700;
+}
+.pagination-current-first{
+  width: 60px;
+  height: 60px;
+  border-radius: 4px;
+  background-color: #F2F2F2;
+  text-align: center;
+}
+.pagination-link{
+  color: #000000;
+  background-color: #F2F2F2;
+}
+
+.pagination-disabled {
+  background-color: #595959;
+}
+>>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
