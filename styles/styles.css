@@ -1,3 +1,4 @@
+/*правильный порядок*/
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
@@ -5,10 +6,7 @@
   src: url("../fonts/ptsans-400.woff2") format("woff2");
   font-display: swap;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
 @font-face {
   font-family: "PT Sans";
   font-style: normal;
@@ -16,10 +14,7 @@
   src: url("../fonts/ptsans-700.woff2") format("woff2");
   font-display: swap;
 }
-<<<<<<< HEAD
-=======
 
->>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
 body {
   margin: 0;
   font-family: "PT Sans", sans-serif;
@@ -29,33 +24,19 @@ body {
   background: #F2F2F2;
   min-width: 1280px;
 }
-<<<<<<< HEAD
-/*Pages*/
-=======
 
-/*Pages*/
-
->>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
 .page-container {
   width: 1200px;
   margin: 0 auto;
   background: #ffffff;
   box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
-<<<<<<< HEAD
-}
-.page-header {
-  background: #FFFFFF;
-}
-=======
 
 }
 
-.page-header {
-
-  background: #FFFFFF;
+.header {
+  background: #FFF;
 }
 
->>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
 .navigation-link {
   font-family: "PT Sans", sans-serif;
   font-style: normal;
@@ -67,35 +48,21 @@ body {
   text-decoration: none;
   text-transform: capitalize;
 }
-<<<<<<< HEAD
-.main {
-}
-=======
 
-.main {
-
-}
-
->>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
 .section-hero {
   color: #ffffff;
   background-color: #85B1D5;
   background-image: url("../images/index-background.jpg");
-<<<<<<< HEAD
-=======
-  background-image: url("../images/welcome.svg");
->>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
   background-repeat: no-repeat;
   background-size: 100% auto;
 }
 
-<<<<<<< HEAD
 h1 {
   text-align: center;
 }
-=======
 
-.welcome{
+
+.welcome {
   text-align: center;
 }
 
@@ -117,7 +84,7 @@ h1 {
   text-align: center;
 }
 
-/* Link */
+
 .pagination {
   background-color: #ffffff;
 }
@@ -129,14 +96,16 @@ h1 {
   line-height: 16px;
   font-weight: 700;
 }
-.pagination-current-first{
+
+.pagination-current-first {
   width: 60px;
   height: 60px;
   border-radius: 4px;
   background-color: #F2F2F2;
   text-align: center;
 }
-.pagination-link{
+
+.pagination-link {
   color: #000000;
   background-color: #F2F2F2;
 }
@@ -144,4 +113,4 @@ h1 {
 .pagination-disabled {
   background-color: #595959;
 }
->>>>>>> 5a73d5b9620feb29f63badfb67a7c9f9739b8149
+
