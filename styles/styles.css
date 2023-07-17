@@ -33,14 +33,34 @@ body {
   display: flex;
   flex-direction: column;
   min-height: 100%;
-
 }
+
 
 .page-container {
   width: 1200px;
   margin: 0 auto;
   background: #ffffff;
-  box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+}
+
+.background-img {
+  background-image: url(../images/index-background.jpg);
+  background-color: #87B4D3;
+  min-height: 485px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.subscribe {
+  background-image: url(../images/pictureof-mountains.jpg);
+  background-color: #87B4D3;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.section, h1 {
+  display: block;
 }
 
 .visually-hidden {
@@ -52,6 +72,7 @@ body {
   border: 0;
   overflow: hidden;
 }
+
 
 /*Header*/
 .page-header {
@@ -71,6 +92,7 @@ body {
   display: flex;
   max-width: 1060px;
   margin: 0 auto;
+  background-color: #ffffff;
 }
 
 .navigation-list {
@@ -132,7 +154,6 @@ body {
 .navigation-search,
 .navigation-favourite {
   background-image: url("../images/icons/search.svg");
-  background-color: #ffffff;
   background-repeat: no-repeat;
   background-position: center;
   cursor: pointer;
@@ -192,11 +213,26 @@ body {
 .booking-hotel:disabled {
   background-color: #E5E5E5;
 }
+
 /*main*/
-.hero-image{
+.hero-image {
   display: block;
   margin: 0 auto;
 }
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+}
+
+.slogan-isitinteresting {
+  display: flex;
+  flex-direction: column;
+  width: 592px;
+  padding: 96.5px 304px;
+  align-items: center;
+  margin: 0 auto;
+  }
 
 /* Footer */
 
@@ -234,15 +270,15 @@ body {
 }
 
 .vk {
-  padding: 13px 11.67px;
+  padding: 13px 12px;
 }
 
 .telegram {
-  padding: 12px 14.67px 12.9px 14.67px;
+  padding: 12px 15px 13px 15px;
 }
 
 .youtube {
-  padding: 11.5px 12.67px;
+  padding: 12px 13px;
 }
 
 .logo-htmlacademy {

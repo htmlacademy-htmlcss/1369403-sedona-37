@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="page-container">
-  <header class="page-header">
+  <header class="page-header" data-test="header">
     <nav class="navigation">
       <a href="index.html" class="logo">
         <img src="images/header/logosvg.svg" alt="Логотип города Седона." width="140" height="70">
@@ -48,42 +48,43 @@
       </div>
     </nav>
   </header>
-  <main class="main-container main-index">
+  <main class="main main-container" data-test="main">
     <div class="page-container">
-      <section class="section-hero">
-        <h1 class="visually-hiden">Отдых в Седоне</h1>
+      <section class="background-img" data-test="background-img">
+        <h1 class="visually-hidden">Отдых в Седоне</h1>
         <div class="image-wrapper">
-          <img class="hero-image" src="images/icons/welcome-title.svg" height="352" width="458"
-               alt="Природа вблизи г.Седона.">
+        <img class="hero-image" src="images/icons/welcome-title.svg" height="352" width="458"
+             alt="Природа вблизи г.Седона.">
         </div>
       </section>
-      <section class="advantages">
-        <div class="advantages-wrapper">
-          <h2 class="advantages-subtitle">Седона — небольшой городок в Аризоне,<br>
-            заслуживающий большего! </h2>
-          <p class="advantages-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
+      <section class="advantages" data-test="advantages">
+         <div class="advantages-wrapper">
+        <h2 class="visually-hidden">Преимущества Седоны</h2>
+        <p class="advantages-subtitle">Седона — небольшой городок в Аризоне,<br>
+          заслуживающий большего! </p>
+        <p class="advantages-description">Рассмотрим причины, по которым Седона круче, чем Гранд-Каньон!</p>
         </div>
         <ul class="advantages-list">
-          <li class="advantages-item advantage-firstli">
+          <li class="advantages-item">
             <h3 class="advantage-title">Настоящий городок</h3>
             <p class="advantage-text-first">Седона — не аттракцион для туристов, там течёт своя жизнь</p>
             <div class="advantage-image">
               <img src="images/town.jpg" width="800" height="385" alt="Фото города.">
             </div>
           </li>
-          <li class="avantages-item advantage-secondli">
+          <li class="avantages-item">
             <h3 class="advantage-title-square">Небольшая площадь</h3>
             <p class="advantage-text-second">Все достопримечательности находятся очень близко</p>
           </li>
-          <li class="avantages-item advantage-thirdli">
+          <li class="avantages-item">
             <h3 class="advantage-title-road">Красивая дорога</h3>
             <p class="advantage-text-third">Ехать в Седону из Лас-Вегаса совсем не скучно!</p>
           </li>
-          <li class="avantages-item advantage-forthli">
+          <li class="avantages-item">
             <h3 class="advantage-title-tuorism">Мало туристов</h3>
             <p class="advantage-text-forth">Большинство едет в Гранд Каньон и толпится там</p>
           </li>
-          <li class="avantages-item advantage-fifthli">
+          <li class="avantages-item">
             <div class="wrapper-img-canyon">
               <img src="images/mountain.jpg" width="800" height="385" alt="Описание каньона и горы.">
             </div>
@@ -92,52 +93,55 @@
           </li>
         </ul>
       </section>
-      <section class="slogan">
+      <section class="slogan" data-test="slogan">
         <div class="slogan-wrapper">
           <h2 class="slogan-title">Приезжайте в Седону отдохнуть в комфорте и уюте!</h2>
           <p>Опытный персонал и качественное обслуживание!</p>
         </div>
       </section>
-      <section class="advantages-with-svg">
+      <section class="advantages-with-svg" data-test="advantages-with-svg">
         <ul class="advantages-with-svg-list">
-          <li class="advantages-with-svg-item-first">
-            <img src="images/icons/house-icon.svg" alt="Дом." width="75" height="72">
+          <li class="advantages-with-svg-item">
+            <!--          это в ПЕРЕНЕСТИ svg <img src="images/icons/house-icon.svg" alt="Дом." width="75" height="72">-->
             <h3 class="advantages-with-svg-title accommodation">Жильё</h3>
-            <p>Рекомендуем пожить в&nbsp; настоящем мотеле, всё&nbsp; как&nbsp; в кино!</p>
+            <p class="advantages-text">Рекомендуем пожить в&nbsp; настоящем мотеле, всё&nbsp; как&nbsp; в кино!</p>
           </li>
-          <li class="advantages-with-svg-item-second">
-            <img src="images/icons/burger-icon.svg" alt="Еда." width="75" height="72">
+          <li class="advantages-with-svg-item">
+            <!--            <img src="images/icons/burger-icon.svg" alt="Еда." width="75" height="72">-->
             <h3 class="advantages-with-svg-title food">Еда</h3>
-            <p>Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
+            <p class="advantages-text">Всегда заказывайте топовый фирменный бургер, вы не разочаруетесь!</p>
           </li>
-          <li class="advantages-with-svg-item-third">
-            <img src="images/icons/souvenir-icon.svg" alt="Сувениры." width="75" height="72">
+          <li class="advantages-with-svg-item">
+            <!--            <img src="images/icons/souvenir-icon.svg" alt="Сувениры." width="75" height="72">-->
             <h3 class="advantages-with-svg-title souvenirs">Сувениры</h3>
-            <p>Не только китайского, но и настоящего местного производства!</p>
+            <p class="advantages-text">Не только китайского, но и настоящего местного производства!</p>
           </li>
         </ul>
       </section>
-
-      <section class="slogan-isitinteresting">
+      <section class="slogan-isitinteresting" data-test="slogan-isitinteresting">
         <div class="slogan-isitinteresting wrapper">
-          <h1>Заинтересовались?</h1>
-          <p>Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в Седоне</p>
-          <button class="slogan-isitinteresting-button" type="submit">Поиск гостиницы в Седоне</button>
+          <h1 class="is-it-interesting">Заинтересовались?</h1>
+          <p class="slogan-text">Укажите предполагаемые даты поездки,<br> и мы покажем вам лучшие предложения гостиниц в
+            Седоне</p>
+          <button class="slogan-is-itinteresting-button" type="submit">Поиск гостиницы в Седоне</button>
         </div>
       </section>
-      <section class="subscribe">
+      <section class="subscribe" data-test="subscribe">
         <div class="subscribe-container">
-          <h2>Подпишитесь на рассылку</h2>
-          <p>Только полезная информация и никакого спама, честное бойскаутское!</p>
-          <form action="https://echo.htmlacademy.ru/" method="post">
-            <input class="mail-input" type="email" name="email" id="email" placeholder="Ваш e-mail">
-            <input class="subscribe-button" type="submit" value="Подписаться">
-          </form>
+          <h2 class="subscribe-title">Подпишитесь на рассылку</h2>
+          <p class="subscribe-text">Только полезная информация и никакого спама, честное бойскаутское!</p>
         </div>
+          <form action="https://echo.htmlacademy.ru/" method="post">
+            <label class="subscribe-field">
+              <span class="visually-hidden">Ваш e-mail</span>
+              <input class="mail-input" type="email" name="e-mail" id="email" placeholder="Ваш e-mail">
+            </label>
+            <button class="button subscribe-button" type="submit">Подписаться</button>
+          </form>
       </section>
     </div>
   </main>
-  <footer class="footer">
+  <footer class="footer" data-test="footer">
     <div class="footer-container">
       <ul class="social-list">
         <li class="social-item">
